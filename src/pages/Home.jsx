@@ -38,7 +38,7 @@ export default function Home() {
               Chairs and stands for the exam lane.
             </h1>
             <p className="mt-6 max-w-lg text-base leading-relaxed text-cream-300 md:text-lg">
-              Bock sells the equipment in the photographs: a motorized ophthalmic exam chair
+              Lone Star Ophthalmic Equipment sells the equipment in the photographs: a motorized ophthalmic exam chair
               and a multi-arm instrument stand, inspected in the warehouse and quoted for
               optometry and ophthalmology practices.
             </p>

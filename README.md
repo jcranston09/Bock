@@ -1,4 +1,4 @@
-# Bock
+# Lone Star Ophthalmic Equipment
 
 Professional ophthalmic equipment sales site for exam chairs, instrument stands, and complete clinic lanes.
 

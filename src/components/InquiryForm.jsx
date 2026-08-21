@@ -35,7 +35,7 @@ export default function InquiryForm({ defaultProductId = '' }) {
         <p className="text-[11px] tracking-[0.22em] text-clinic-600 uppercase">Inquiry received</p>
         <h3 className="mt-3 font-display text-3xl text-navy-900">We will reply within one business day.</h3>
         <p className="mt-4 max-w-md text-sm leading-relaxed text-ink-500">
-          A Bock specialist will confirm availability, freight, and options for
+          A Lone Star specialist will confirm availability, freight, and options for
           {form.productId
             ? ` the ${products.find((item) => item.id === form.productId)?.name ?? 'selected unit'}.`
             : ' the lane you described.'}

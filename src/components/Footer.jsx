@@ -52,7 +52,7 @@ export default function Footer() {
       </div>
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-6xl justify-between px-5 py-5 text-xs text-cream-300 lg:px-8">
-          <span>© {new Date().getFullYear()} Bock Ophthalmic</span>
+          <span>© {new Date().getFullYear()} Lone Star Ophthalmic Equipment</span>
           <span>Clinical equipment, warehouse inspected</span>
         </div>
       </div>
