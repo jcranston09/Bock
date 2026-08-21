@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cormorant Garamond", "Times New Roman", serif;
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+
+  --color-navy-950: #07141e;
+  --color-navy-900: #0c2438;
+  --color-navy-800: #14344d;
+  --color-navy-700: #1c4d70;
+  --color-clinic-700: #15597a;
+  --color-clinic-600: #1b6b93;
+  --color-clinic-500: #2a85b0;
+  --color-brass-300: #d4bf96;
+  --color-brass-400: #c4a574;
+  --color-brass-500: #a8874e;
+  --color-cream-50: #fbfaf6;
+  --color-cream-100: #f4f1ea;
+  --color-cream-200: #e7e2d6;
+  --color-cream-300: #d5cebd;
+  --color-ink-900: #161513;
+  --color-ink-700: #3c3933;
+  --color-ink-500: #6b665c;
+  --color-ink-400: #8a8478;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--color-cream-50);
+  color: var(--color-ink-900);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-navy-900);
+  color: var(--color-cream-50);
+}
+
+img {
+  max-width: 100%;
+}
+
+.product-photo {
+  background:
+    radial-gradient(ellipse at 50% 20%, rgba(255, 255, 255, 0.55), transparent 55%),
+    linear-gradient(180deg, #ece7db 0%, #d8d1c2 100%);
+}
