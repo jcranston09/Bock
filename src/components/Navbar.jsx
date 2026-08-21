@@ -26,7 +26,7 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 lg:px-8">
         <Logo inverted={inverted} />
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-8 lg:flex">
           {links.map((link) => (
             <NavLink
               key={link.to}
@@ -61,7 +61,7 @@ export default function Navbar() {
 
         <button
           type="button"
-          className="grid h-10 w-10 place-items-center md:hidden"
+          className="grid h-10 w-10 place-items-center lg:hidden"
           onClick={() => setOpen((value) => !value)}
           aria-label={open ? 'Close menu' : 'Open menu'}
         >
@@ -71,7 +71,7 @@ export default function Navbar() {
 
       {open && (
         <div
-          className={`border-t px-5 py-4 md:hidden ${
+          className={`border-t px-5 py-4 lg:hidden ${
             inverted ? 'border-white/10 bg-navy-950' : 'border-cream-200 bg-cream-50'
           }`}
         >

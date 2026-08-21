@@ -27,18 +27,18 @@ export default function Logo({ inverted = false }) {
       </span>
       <span className="flex flex-col leading-none">
         <span
-          className={`font-sans text-[13px] font-semibold tracking-[0.32em] ${
+          className={`font-sans text-[13px] font-semibold tracking-[0.18em] ${
             inverted ? 'text-cream-50' : 'text-navy-900'
           }`}
         >
-          BOCK
+          LONE STAR
         </span>
         <span
-          className={`mt-1 text-[10px] tracking-[0.22em] uppercase ${
+          className={`mt-1 text-[10px] tracking-[0.14em] uppercase ${
             inverted ? 'text-cream-300' : 'text-ink-500'
           }`}
         >
-          Ophthalmic
+          Ophthalmic Equipment
         </span>
       </span>
     </Link>
